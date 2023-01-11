@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 1</title>
+    <style>
+body {
+    height:100vh;
+    background-color: #f0f0f0;
+}
+p {
+color: #7e7e7e;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+#remember-me {
+    color:#a9a9a9;
+}
+.box /*better now!!!*/ {
+    background-color: #f0f0f0;
+    width: 300px;
+     border: 100px solid #d47677;
+     border-radius: 10px;
+    padding: 50px;
+    margin: 20px;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+}
+button{
+    display: block;
+    background-color: #9dd8d4;
+    border:solid 1px #9dd8d4;
+    color: white;
+    position: relative;
+    left:35%;
+    transform: translate(50%,50%);
+}
+input {
+color:#AAAAAA;
+margin:10px;
+}
+.login {
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <p>Have an account? Sign in</p>
+        <input type="text" placeholder="Username" name="uname" required>
+        <input type="password" placeholder="Password" name="psw" required>
+        <div class="login"><button id="login">LOGIN</button></div>
+        <div id="remember-me"><input type="checkbox" />Remember me</div>
+    </div>
+
+</body>
+</html>
