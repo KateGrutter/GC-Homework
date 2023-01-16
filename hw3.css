@@ -1,0 +1,144 @@
+
+body {
+    font-family: 'Open Sans' , sans-serif;
+    background-color: #f9fafc;
+}
+header {
+    display: flex;
+    flex-direction: column;
+}
+.header-list {
+    margin-bottom: 16px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    color: #69696a;
+    margin: 0;
+}
+p {
+    color: #69696a;
+    border-left: 3px solid #69696a;
+    padding: 5px;
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: #69696a;
+}
+a:visited {
+    color: #69696a;
+}
+a:hover {
+    color: #69696a;
+}
+a:active {
+    color: #69696a;
+}
+button {
+    background-color: #000;
+    font-size: medium;
+    width: 100%;
+    padding: 5px;
+    border-radius: 15px;
+    border: solid 1px #000;
+}
+a.button {
+color: #FFF;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(247, 193, 162, 0.7);
+    width: 101%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -5px;
+}
+.footer-list {
+    display: flex;
+    padding-right: 15px;
+    flex-direction: row;
+    margin: 0;
+    justify-content: space-around;
+
+}
+.footer-span {
+    padding-left: 15px;
+}
+.list2 {
+    padding:5px;
+}
+@media only screen and (min-width: 768px) {
+    .first-button {
+        width: 10px;
+    }
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    nav.header {
+        display: flex;
+        flex-direction: row;
+    }
+    ul.header-list {
+        display: flex;
+        flex-direction: row;
+    }
+    li {
+        padding: 5px;
+    }
+    button.first-button {
+        width: auto;
+        height: fit-content;
+        padding: 5px;
+    }
+    .side-by-side {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .text {
+        width: 50%;
+    }
+    .container {
+        display: relative;
+        width: 50%;
+    }
+    .circle1 {
+        background-color: rgba(247, 136, 167, 0.6);
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        position: absolute;
+        margin:0;
+        right: 90px;
+        
+    }
+    .circle2 {
+        background-color: rgba(247, 193, 162, 0.7);
+        height: 170px;
+        width: 170px;
+        border-radius: 50%;
+        position: absolute;
+        right: 10px;
+        top: 200px;
+    }
+    .circle3 {
+        background-color: rgba(207, 130, 213, 0.6);
+        height: 130px;
+        width: 130px;
+        border-radius: 50%;
+        position: absolute;
+        right: 10px;
+        top: 110px;
+    }
+}
+
