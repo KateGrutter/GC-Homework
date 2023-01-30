@@ -1,4 +1,8 @@
 
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Open Sans' , sans-serif;
     background-color: #f9fafc;
@@ -54,11 +58,11 @@ footer {
     position: fixed;
     bottom: 0;
     background-color: rgba(247, 193, 162, 0.7);
-    width: 101%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: -5px;
+    margin: 0;
 }
 .footer-list {
     display: flex;
